@@ -1,0 +1,6 @@
+1. Using Complete bootstrap package with popper & jquery
+2. Working with input fields
+3. Form Validation using 'Joi' and tranditional way
+4. Creating Reusable input fields
+5. Updating the existing data using forms and creating submitting the forms
+6. Implementing search box in movie

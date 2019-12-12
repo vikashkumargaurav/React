@@ -1,0 +1,32 @@
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin hrzCenter {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin verticalCenter {
+  position: absolute;
+  left: 50%;
+  transform: translateY(-50%);
+}
+
+
+@mixin underline($len) {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  top: 140%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 0.3rem solid #0c60ae;
+  width: $len;
+}
+
+

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap");
+/*also apply border-box for any after,before pseudo element*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+  @media (max-width: 991px) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 767px) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 575.98px) {
+    html {
+      font-size: 45%; } }
+
+#root {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+input, button, select {
+  font-family: 'Poppins', sans-serif; }
+
+.wrapper {
+  width: 1140px; }
+  @media only screen and (max-width: 1200px) {
+    .wrapper {
+      width: 970px; } }
+  @media only screen and (max-width: 991px) {
+    .wrapper {
+      width: 750px; } }
+  @media only screen and (max-width: 767px) {
+    .wrapper {
+      width: calc(100% - 20px); } }
+
+a {
+  color: inherit;
+  display: inline-block; }
+  a:hover, a:active, a:focus {
+    text-decoration: none; }
+
+.footer--container {
+  margin-top: auto; }
+
+.home--container {
+  margin: 0 auto; }
+
+.login--container {
+  margin: 0 auto; }
+
+.signup--container {
+  margin: 0 auto; }
+
+/*# sourceMappingURL=styles.css.map */

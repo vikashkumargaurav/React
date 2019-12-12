@@ -1,0 +1,8 @@
+1. Using Conditional statement to render the loop
+2. Dynamically returning jsx from a method
+3. Handle onclick while deleting the movie list and updating setState() method
+4. Force update the setState() using this.forceUpdate()  & this.setState(this.state)
+5. Using object destructuring directly in parameter
+6. Creating more reusable components by isolating components
+6. Implementing Pagination and filtering(asc & desc)
+7. checking the prop types & using default props (props which are static ) in child

@@ -1,0 +1,37 @@
+1. Implement Routing using 'react-router-dom' module
+   Using <BrowserRouter> to encapsulate the whole app to use routing facility
+
+2. Using 'Switch' Component(react-router-dom component) or exact property to trigger only specific routes
+
+3. Using '<Route path="/admin" component={Dashboard}' to implement route
+
+4. Implementing 404 page not found if any invalid path is triggered
+   ex : <Redirect to='/not-found'/>
+        <Route path="/not-found" component={NotFound}/>
+
+5. Redirecting to a new page
+   ex :<Redirect from='/messages' to='/posts'/> {/*Redirecting to different route*/}
+
+6. Programmatic Redirecting:
+   ex :  this.props.history.push('/products')
+         this.props.history.replace('/products')
+    // Use this.props.history.replace() if u want to replace the current page  without showing in browser history
+    // Use this.props.history.push() if u want to replace the current page  by showing it in browser history
+
+7. Using optional route parameters
+   ex : <Route path="/posts/:year?/:month?" component={Posts}/>
+
+8. Retrieving route Parameters
+   ex: const routeParamId = this.props.match.params.id;
+
+9. Retrieving query strings by using npm 3rd party module  'query-string';
+   ex :    const {sortBy, approved} = queryString.parse(location.search);
+           //Url will look like eg : http://localhost:3000/Posts/2019/?sortBy=newest&approved=true
+
+10. Using Nested Routing.
+    Ex  :checkout the dashboard  component
+
+11. Using <Link to='/route-path'> instead of <a href="/path"> to avoid sending http request every-time and behave it link a single page applica
+    Using <NavLink to='/route-path'> instead of <Link> while working with Navs bcz it will add class='active' dynamically when respected component is active
+    Ex : <Link to="/about-us"> About us</Link>
+         <Route path='/about-us' component={AboutUs}  />  // Route will look like this

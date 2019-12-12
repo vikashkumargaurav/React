@@ -1,0 +1,3 @@
+rsc - For es6 arrow function stateless component
+rrc - Normal class function with redux  support
+rcc - Create a class based function

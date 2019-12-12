@@ -1,0 +1,8 @@
+1. Applying 'className' in jsx.
+2. Using inline styles using object and inline in jsx.
+3. Dynamically applying values in react.
+4. Using React.Fragment to replace default div
+5. Using Bootstrap with React (npm i bootstrap & then [import 'bootstrap/dist/css/bootstrap.min.css'] in src/index.js)
+6. Rendering lists
+7. Handling js events like onClick() and passing arguments
+8. setting a react property in the way that react will aware of changes

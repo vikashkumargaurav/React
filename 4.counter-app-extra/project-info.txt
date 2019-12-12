@@ -1,0 +1,19 @@
+1. passing data from parent component to child component using 'props'
+        ex :  <Counters onDelete={this.handleDelete counter={counter}>
+                  <p>I am markup from parent</p>
+              </Counters>
+
+2. Raising events from child component and handling in Parent component
+3. Working with life cycle method of react :
+        1. constructor()
+        2. render()
+        3. componentDidMount()
+        4. componentDidUpdate()
+        5. componentWillUnMount()
+
+4. learning how to use this.props in component
+5. Passing markup from parent component to child component as 'props'
+    It can be accessed using 'this.prop.children'.
+6. using Stateless functional component render markup & where no event handling occurs (doesn't have react life cycle methods)
+
+7. Lifting the component to share data between multiple component

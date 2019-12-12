@@ -1,0 +1,7 @@
+Create a new app  : create-react-app appname  where appname is only in smaller case
+
+rcc > tab   => React comopnent
+rsc > tab   => React stateless Components (with es6 syntax)
+rsf > tab   => React stateless Functional Components (with es5 function)
+
+1 . npm start

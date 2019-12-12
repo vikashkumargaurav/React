@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap');
+
+/*also apply border-box for any after,before pseudo element*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+
+
+  @media (max-width: 991px) {
+    font-size: 56.25%;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 50%;
+  }
+
+  @media (max-width: 575.98px) {
+    font-size: 45%;
+  }
+
+}
+
+
+#root {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+input, button, select {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.wrapper {
+  width: 1140px;
+
+  @media only screen and (max-width: 1200px) {
+    width: 970px;
+  }
+  @media only screen and (max-width: 991px) {
+    width: 750px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    width: calc(100% - 20px);
+  }
+}
+
+
